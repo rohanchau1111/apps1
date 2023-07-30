@@ -1,0 +1,27 @@
+
+name: My GitHub Action Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  my_job:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+     
+ 
+ 
+      - name: checking
+        run: echo "Done"
+    
+      - name: Checking helm version   
+        run: helm version 
+         
+      - name: Upgrading the helm chart
+        run: helm upgrade myprome . 
+        
+
