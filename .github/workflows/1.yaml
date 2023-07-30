@@ -21,8 +21,7 @@ jobs:
       - name: Checking helm version   
         run: helm version 
          
-      - name: Checking helm version   
-        run: helm install myprome .  
+    
          
       - name: Upgrading the helm chart
         run: helm upgrade myprome . 
