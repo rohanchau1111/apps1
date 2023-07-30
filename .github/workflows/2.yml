@@ -1,5 +1,5 @@
 
-name: My GitHub Action Workflow
+name: 2
 
 on: [workflow_dispatch]
  
