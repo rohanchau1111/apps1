@@ -20,9 +20,9 @@ jobs:
         run: helm version 
  
       - name: Checking direcotyr   
-      - run: |
-               pwd
-               cd /home/rocky/pro/prometheus
+        run:  cd /home/rocky/pro/prometheus
+                
+              
  
       - name: Upgrading the helm chart
         run: helm upgrade mygrafana . 
