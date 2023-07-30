@@ -19,7 +19,9 @@ jobs:
       - name: Checking helm version   
         run: helm version 
  
-        
+      - name: Checking direcotyr   
+        run: pwd 
+ 
       - name: Upgrading the helm chart
         run: helm upgrade mygrafana . 
         
