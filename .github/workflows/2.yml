@@ -20,9 +20,7 @@ jobs:
     
       - name: Checking helm version   
         run: helm version 
-         
-      - name: Upgrading the helm chart
-        run: helm install mygrafana . 
+ 
         
       - name: Upgrading the helm chart
         run: helm upgrade mygrafana . 
