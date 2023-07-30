@@ -21,10 +21,12 @@ jobs:
  
       - name: Checking direcotyr   
         run:  cd /home/rocky/pro/grafana/
-                
-              
+        
  
       - name: Upgrading the helm chart
-        run: helm upgrade mygrafana . 
+        run: | 
+          pwd
+          cd /home/rocky/pro/grafana/
+          helm upgrade mygrafana . 
         
 
