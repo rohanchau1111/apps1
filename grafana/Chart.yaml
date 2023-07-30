@@ -25,7 +25,7 @@ maintainers:
   name: Xtigyro
 - email: mail@torstenwalter.de
   name: torstenwalter
-name: grafana
+name: grafana-rohan
 sources:
 - https://github.com/grafana/grafana
 - https://github.com/grafana/helm-charts
